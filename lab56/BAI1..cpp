@@ -10,69 +10,44 @@ int main(){
 	float diemtb;
 	printf("nhap diem toan: ");
 	scanf("%f",&toan);
+	while(toan <0 || toan >10)
+	{
+		printf("Vui long nhap lai diem toan");
+		scanf("%f",&toan);
+	}
     printf("nhap diem li: ");
 	scanf("%f",&li);
+	while(li <0 || li >10)
+	{
+		printf("Vui long nhap lai diem li");
+		scanf("%f",&li);
+	}
 	printf("nhap diem hoa: ");
 	scanf("%f",&hoa);
+	while(toan <0 || hoa >10)
+	{
+		printf("Vui long nhap lai diem hoa");
+		scanf("%f",&hoa);
+	}
 	diemtb=(toan+li+hoa)/3; 
-	printf("Diem trung binh la: %.1f",diemtb);
-	diemtb=(toan+li+hoa)/3; 
-	switch(diemtb>=9){
-		case 1:
+	printf("Diem trung binh la: %.2f \n ",diemtb);
+	switch((int)diemtb){
+		case 10:
+			case 9:
 			printf("Loai A"); 
 			break;
-		case 2 :
+		case 8 :
+			case 7:
 			printf("Loai B") ;
 			break; 
-		case 3 :
+		case 6 :
+			case 5:
 			printf("Loai C") ;
 			break; 
 		case 4 :
-			break;
 			printf("Loai D") ;
 			break;
-	} 
-	switch(diemtb>=7){
-		case 5:
-			printf("Loai A"); 
-			break;
-		case 6 :
-			printf("Loai B") ;
-			break; 
-		case 7 :
-			printf("Loai C") ;
-			break; 
-		case 8 :
-			printf("Loai D") ;
-			break; 
-	}
-	switch(diemtb>=5){
-		case 9:
-			printf("Loai A"); 
-			break;
-		case 10 :
-			printf("Loai B") ;
-			break; 
-		case 11 :
-			printf("Loai C") ;
-			break; 
-		case 12 :
-			printf("Loai D") ;
-			break; 
-	}
-	switch(diemtb>5){
-		case 13:
-			printf("Loai A"); 
-			break;
-		case 14 :
-			printf("Loai B") ;
-			break; 
-		case 15 :
-			printf("Loai C") ;
-			break; 
-		case 16:
-			printf("Loai D") ;
-			break; 
+	
 	}
 }
 

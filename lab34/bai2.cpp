@@ -1,7 +1,6 @@
 #include<stdio.h>
 // thu vien ten 
 #include<string>
-#include<iostream.h>
 int main(){
 	// char ham ky tu 
 	// [50] khong nhap qua 50 ky tu 
@@ -20,18 +19,17 @@ int main(){
 	scanf("%f",&hoa) ;
 	diemtb=(toan + ly + hoa)/3;
 	printf("Diem trung binh 3 mon la:%.1f\n",diemtb);
-switch(diemtb){
-		case 1:{
-			printf("Loai A"); 
-			break;}
-		case 2 :{
-			print("Loai B") ;
-			break; }
-		case 3 :{
-			print("Loai C") ;
-			break; }
-		case 4 :{
-			print("Loai D") ;
-			break;} 
+	if(diemtb>=9){
+		printf("Loai A"); 
+	} 
+	else if(diemtb>=8){
+		printf("Loai B"); 
+	} 
+	else if(diemtb>=6){
+		printf("Loai C"); 
+	} 
+	else if(diemtb<5){
+		printf("Loai D"); 
+	} 
 	return 0;
 } 
