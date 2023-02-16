@@ -30,7 +30,7 @@ int main(){
 		scanf("%f",&hoa);
 	}
 	diemtb=(toan+li+hoa)/3; 
-	printf("Diem trung binh la: %.2f \n ",diemtb);
+	printf("Diem trung binh la: %.1f \n ",diemtb);
 	switch((int)diemtb){
 		case 10:
 			case 9:

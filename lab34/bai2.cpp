@@ -31,7 +31,7 @@ int main(){
 	} 
 	diemtb=(toan + ly + hoa)/3;
 	printf("Diem trung binh 3 mon la:%.1f\n",diemtb);
-	if(diemtb>=10){
+	if(diemtb>=9){
 		printf("Loai A"); 
 	} 
 	else if(diemtb>=7){
