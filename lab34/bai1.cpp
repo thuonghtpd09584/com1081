@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main(){
-	int a, b;
+	int a;
 	printf("Nhap a: ") ;
 	scanf("%d",&a) ;
-	if(a==0){
+	if(a%2==0){
 		printf("So chan "); 
 	} 
 	else{

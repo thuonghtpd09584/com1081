@@ -44,8 +44,8 @@ int main(){
 			case 5:
 			printf("Loai C") ;
 			break; 
-		case 4 :
-			printf("Loai D") ;
+		default:
+		printf("Loai D"); 
 			break;
 	
 	}
