@@ -14,7 +14,7 @@
 	printf("10.Xay dung tinh than tinh toan phan so \n");
 	printf("11.Thoat"); 
  } 
- void kiem_tra_so_nguyen () {
+ void kiem_tra_so_nguyen () { 
 }
  void tim_uoc_chung_va_boi_so_chung_cua_2_so() {
  } 
